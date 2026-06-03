@@ -1,0 +1,27 @@
+git fetch:- only looks for updates from GitHub without changing your actual files, 
+
+Git Pull:- while git pull downloads those updates and immediately forces them into your files
+
+A pull request (PR) is a way to ask permission to add your code changes to a main project.
+
+Git pull == Git fetch & git merge
+
+Git Reset 
+Types in git reset Soft reset and Hard reset
+Soft reset : It will keep all changes
+Mixed : Keep working copy mixed index
+Hard : Discard all changes
+
+(Erase History)What it does: Moves your current project timeline backward to a previous point.
+
+How it works: It chops off the commits you want to undo as if they never happened.
+
+When to use it: Use it only on your private, local computer when you made a mistake and want to erase it completely.
+
+Warning: Never use it on code that you have already shared with other people.
+
+Git Revert (Record New History)What it does: Creates a brand-new commit that does the exact opposite of a previous mistake.
+
+How it works: If Commit A added a line of code, Commit B (the revert) deletes that line. Your history stays intact, and a new "fix" is added to the end.
+
+When to use it: Use it on public, shared code because it safely undoes an error without messing up your team's timeline.
