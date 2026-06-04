@@ -9,7 +9,7 @@ Git pull == Git fetch & git merge
 Git Reset 
 Types in git reset Soft reset and Hard reset
 Soft reset : It will keep all changes
-Mixed : Keep working copy Reset the Index
+Mixed : It will Keep the working copy Reset the Index
 Hard : Discard all changes
 
 (Erase History)What it does: Moves your current project timeline backward to a previous point.
