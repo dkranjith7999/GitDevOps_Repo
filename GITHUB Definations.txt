@@ -27,7 +27,9 @@ Git Rebase :- The git rebase command is a tool that takes your recent code chang
 Git Stash :- The git stash command is like a "pause button" for your unfinished code. It lets you temporarily hide away your current work without making a permanent commit, giving you a clean slate to work on something else
 
 git stash: Saves your uncommitted changes and cleans your workspace.git 
+
 stash pop: Brings your saved changes back and deletes them from the temporary drawer.
+
 git stash list: Shows you a list of all the different half-finished tasks you have hidden away.
 
 
